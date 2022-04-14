@@ -7,13 +7,14 @@ export default function Lore() {
 
     const or = isMobile ? "column" : "row";
     const mt = isMobile ? "20%" : "0%";
-    const w = isMobile ? "750px" : "650px";
+    const w = isMobile ? "750px" : "450px";
     return (
         <Flex
             mt = "4%"
             flexDirection={or}
             justifyContent={{ base: 'flex-start', md: 'center' }}
             alignItems="center"
+            pb="4%"
         >
             <Box
                 margin="auto"

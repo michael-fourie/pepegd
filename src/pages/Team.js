@@ -8,6 +8,7 @@ import {
 import skitzo from "../assets/png/skitzo.png"
 import degen from "../assets/jpg/degen.jpg"
 import sexy from "../assets/jpg/sexy.jpg"
+import richarson from "../assets/png/richardson.png"
 import unhatched from "../assets/gif/wagmi-unrevealed.gif"
 import TeamCard from '../components/TeamCard';
 import { isMobile } from 'react-device-detect';
@@ -28,7 +29,7 @@ export default function Team() {
             minH="100vh">
             <Heading
                 textShadow="3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000"
-                mt="15%"
+                mt="8%"
                 fontSize={
                     {
                         base: '5xl',
@@ -63,8 +64,8 @@ export default function Team() {
                         heading="Degen Sholze"
                         text="Core Boosted Degen Chad" />
                     <TeamCard
-                        image={unhatched}
-                        heading="Richard NFG"
+                        image={degen}
+                        heading="Richardson"
                         text="Grand Master of Art" />
                 </Flex>
                 :
@@ -102,8 +103,8 @@ export default function Team() {
                         heading="Degen Sholze"
                         text="Core Boosted Degen Chad" />
                     <TeamCard
-                        image={unhatched}
-                        heading="Richard NFG"
+                        image={degen}
+                        heading="Richardson"
                         text="Grand Master of Art" />
                     </Flex>
                 </Flex>

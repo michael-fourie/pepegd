@@ -2,11 +2,10 @@ import React from 'react';
 import { Flex, Box, Heading, Text } from '@chakra-ui/react';
 // import Nyan from '../assets/animation/nyan_cat.json';
 import { isMobile } from 'react-device-detect';
-import metaverse from "../assets/png/metaverse.png";
-import merch from "../assets/png/merch.png";
-import exclusive from "../assets/png/exclusive.png";
+import pepe from "../assets/png/pepe_matrix.png";
 import { Image } from "@chakra-ui/react";
 import "../components/WhyCard";
+import "../style/Why.css"
 
 export default function Why() {
     const direction = isMobile ? "column" : "row"
@@ -26,7 +25,7 @@ export default function Why() {
                 px={{ base: '20px', lg: 0 }}
 
             >
-                <Heading textShadow={shd2} pt="15%" maxW="100%" color="white" fontSize={{ base: '5xl', md: '8xl' }}>
+                <Heading textShadow={shd2} pt="7%" maxW="100%" color="white" fontSize={{ base: '5xl', md: '9xl' }}>
                     Why should you ape a Pepeg, anon?
                 </Heading>
             </Box>
@@ -54,18 +53,19 @@ export default function Why() {
                         justifyContent={{ base: 'flex-start', md: 'center' }}
                     >
                         <Image
-                            src={metaverse}
-                            w={{ base: '350px', md: "450px", xl: '550px' }}
+                            src={pepe}
+                            w="420px"
 
                         />
                         <Flex
+                            className='text-border'
                             position="relative"
                             flexDirection="column"
                             alignItems="center"
                             justifyContent={{ base: 'flex-start', md: 'center' }}
                         >
                             <Heading textShadow={shd1} maxW="100%" color="white" fontSize={{ base: '3xl', md: '5xl' }}>
-                                The Pepeg'd Plan
+                                What is Pepeg'd?
                             </Heading>
                             <Text
                                 textShadow="1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000"
@@ -79,7 +79,9 @@ export default function Why() {
                                     }
                                 }
                                 mt="4px" >
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    Pepeg'd is a legendary collection done by the JPEG'd community to commemorate the launch of the historic JPEG'd NFT lending protocol. 
+                                    As a gift to the community, all JPEG'd Card Holders will have whitelist for this mint, on a 1:2 basis (1 Card = 2 Pepeg's).
+                                    Pepeg's represent the weenis warming, slightly degen, jpg loving community behind the JPEG'd protocol.
                                 </Text>
                         </Flex>
                     </Flex>
@@ -101,8 +103,8 @@ export default function Why() {
                         justifyContent={{ base: 'flex-start', md: 'center' }}
                     >
                             <Image
-                                src={merch}
-                                w={{ base: '200px', md: "275px", lg: '315px' }}
+                                src={pepe}
+                                w="420px"
 
                             />
                             <Flex
@@ -110,9 +112,10 @@ export default function Why() {
                             flexDirection="column"
                             alignItems="center"
                             justifyContent={{ base: 'flex-start', md: 'center' }}
+                            className='text-border'
                         >
                                 <Heading textShadow={shd1} mT="5%" maxW="100%" color="white" fontSize={{ base: '3xl', md: '5xl' }}>
-                                    How The Mint Goes Down
+                                    The Pepeg'd Plan
                                 </Heading>
                                 <Text
                                     textShadow="1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000"
@@ -126,7 +129,11 @@ export default function Why() {
                                         }
                                     }
                                     mt="4px" >
-                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    On completetion of minting, we will use 50% of funds raised to do an absolute chad market buy of $JPEGd.
+                                    This $JPEGd will be farmed with liquididty mining and single-side staking.
+                                    All yield will be used for airdrops and suprises for the Pepeg'd community.
+                                    The other 50% of raised funds will be divided 20% into funding marketing and communitiy initiatives
+                                    and 30% to the core team.
                                 </Text>
                             </Flex>
 
@@ -154,9 +161,10 @@ export default function Why() {
                                 alignItems="center"
                                 marginRight="2%"
                                 justifyContent={{ base: 'flex-start', md: 'center' }}
+                                className='text-border'
                             >
                                 <Heading textShadow={shd1} mT="5%" maxW="100%" color="white" fontSize={{ base: '3xl', md: '5xl' }}>
-                                    How The Mint Goes Down
+                                    The Pepeg'd Plan
                                 </Heading>
                                 <Text
                                     textShadow="1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000"
@@ -171,12 +179,16 @@ export default function Why() {
                                         }
                                     }
                                     mt="4px" >
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    On completetion of minting, we will use 50% of funds raised to do an absolute chad market buy of $JPEGd.
+                                    This $JPEGd will be farmed with liquididty mining and single-side staking.
+                                    All yield will be used for airdrops and suprises for the Pepeg'd community.
+                                    The other 50% of raised funds will be divided 20% into funding marketing and communitiy initiatives
+                                    and 30% to the core team.
                                 </Text>
                             </Flex>
                             <Image
-                                src={merch}
-                                w="315px"
+                                src={pepe}
+                                w="420px"
 
                             />
                         </Flex>
@@ -198,14 +210,15 @@ export default function Why() {
                         justifyContent={{ base: 'flex-start', md: 'center' }}
                     >
                         <Image
-                            src={exclusive}
-                            w="415px"
+                            src={pepe}
+                            w="420px"
                         />
                         <Flex
                             position="relative"
                             flexDirection="column"
                             alignItems="center"
                             justifyContent={{ base: 'flex-start', md: 'center' }}
+                            className='text-border'
                         >
                             <Heading textShadow={shd1} maxW="100%" color="white" fontSize={{ base: '3xl', md: '5xl' }}>
                                 JPEG'd Protocol
@@ -223,7 +236,7 @@ export default function Why() {
                                     }
                                 }
                                 mt="4px" >
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    JPEGd is the leading NFT lending platform in the decentralized finance space. It is a novel and revolutionary platform that enables holders of certain NFTs to obtain a line of credit on their assets while still retaining ownership. After obtaining a line of credit on their NFTs, users can earn yield in DeFi. The protocol is permissionless, decentralized, and is governed by tokenholders of the platform, JPEG.
                             </Text>
                         </Flex>
                     </Flex>

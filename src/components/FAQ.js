@@ -6,7 +6,7 @@ const data = {
     rows: [
         {
             title: "Wen mint?",
-            content: `The minting will occur ....`,
+            content: `mint on 4/20. 4/20 is gud`,
         },
         {
             title: "Wen Cards Snapshot",
@@ -14,8 +14,8 @@ const data = {
                 "The snapshot for the JPEGd Card Holders will occur on Easter Sunday",
         },
         {
-            title: "Wen reveal?",
-            content: `The minted Pepeg's will be revealed instantly upon mint.`,
+            title: "What royalties?",
+            content: `Pepeg's have a 5% royalty. 2% of this will be sent directy to JPEG'd DAO's treasury. 3% will go to the team.`,
         },
         {
             title: "Is pepeg'd gud?",
