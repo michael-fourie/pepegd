@@ -1,0 +1,18 @@
+
+
+@media screen and (max-width:920px) {
+    .desktop-only {
+        display: none !important
+    }
+    .mobile-only {
+        display: block
+    }
+    .gradient_cat {
+        width: 100px;
+        top: -10px
+    }
+    .gradient_cat.about {
+        width: 60%;
+        top: 100%
+    }
+}

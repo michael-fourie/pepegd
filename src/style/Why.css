@@ -1,0 +1,11 @@
+.why-container{
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 768px) {
+    .why-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
