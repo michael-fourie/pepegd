@@ -1,8 +1,8 @@
 .main {
-  max-width: 100%;
+  width: 100%;
   overflow-x: hidden;
   text-align: center;
-  cursor:url("./assets/png/cursor.png"), auto;
+  cursor:url("https://1131437637-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4q1VmrV9tKrttNrIIhP1%2Fuploads%2F5NFBWD8EBlNcPy3FuN9o%2Fimage.png?alt=media&token=3376df4c-3e82-447c-8023-288c064e4943"), auto;
 }
 
 
@@ -34,7 +34,12 @@
   margin-top: -1%;
 }
 
+@media only screen and (max-width: 768px) {
+  .about{
+    background-image: url("./assets/jpg/bg_2_cropped.gif");
 
+  }
+}
 html {
   scroll-behavior: smooth
 }
