@@ -3,6 +3,7 @@
     padding: 5%;
     margin-left: 30%;
     margin-right: 30%;
+    background-position-y: 3%;
     background-image: url("../assets/jpg/bg_mint.gif");
     background: linear-gradient(to top, rgba(#cffffe, 0.3), rgba(#f9f7d9, 0.3), rgba(#fce2ce, 0.3), rgba(#ffc1f3, 0.3));
     border: 20px solid black;
