@@ -35,10 +35,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .about{
-    background-image: url("./assets/jpg/bg_2_cropped.gif");
 
-  }
 }
 html {
   scroll-behavior: smooth
