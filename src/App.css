@@ -33,7 +33,9 @@
   width: 100vw;
   margin-top: -1%;
 }
-
+.pool{
+  width: 100%;
+}
 @media only screen and (max-width: 768px) {
 
 }

@@ -32,7 +32,7 @@ import {
 } from './redux/data/dataActions';
 import game_border from "./assets/jpg/game-border.jpg";
 import ChromeDinoGame from 'react-chrome-dino';
-
+import Pool from "./components/pool";
 
 const extendedThemes = extendTheme({
   ...theme,
@@ -191,6 +191,9 @@ function App() {
               }
             />
           </div>
+        <div className="pool">
+        <Pool />
+        </div>
         <div className="about">
           <Why /> 
           <Lore />
