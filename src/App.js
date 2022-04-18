@@ -37,8 +37,8 @@ import ChromeDinoGame from 'react-chrome-dino';
 const extendedThemes = extendTheme({
   ...theme,
   fonts: {
-    heading: "Pixelated Display",
-    body: "Pixelated Display",
+    heading: "Minecraft",
+    body: "Minecraft",
   },
   colors: {
     ...theme.colors,

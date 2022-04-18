@@ -1,13 +1,42 @@
 .border-mint{
-    border: 2px solid black;
     padding: 5%;
     margin-left: 30%;
     margin-right: 30%;
-    background-position-y: 3%;
-    background-image: url("../assets/jpg/bg_mint.gif");
-    background: linear-gradient(to top, rgba(#cffffe, 0.3), rgba(#f9f7d9, 0.3), rgba(#fce2ce, 0.3), rgba(#ffc1f3, 0.3));
-    border: 20px solid black;
+    background-color: rgb(151, 240, 237);
+    box-shadow: rgb(255 41 109) -4px 4px 0px 0.5px;
     border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23cffffe' /%3E%3Cstop offset='25%25' stop-color='%23f9f7d9' /%3E%3Cstop offset='50%25' stop-color='%23fce2ce' /%3E%3Cstop offset='100%25' stop-color='%23ffc1f3' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3'/%3E %3C/svg%3E") 1;
+}
+
+.jpegd-btn{
+    width: 160px;
+    padding: 8px 16px;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    display: flex;
+    font-size: 16px;
+    background: rgb(5, 216, 232);
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(5, 216, 232);
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0.3em 0.3em 0 0 var(#19bc8b),
+    inset 0.3em 0.3em 0 0 var(#19bc8b);
+}
+
+.jpegd-btn:hover{
+    box-shadow: 0 0 0 0 var(#19bc8b),
+    inset 6em 3.5em 0 0 var(#19bc8b);
 }
 
 @media only screen and (max-width: 768px) {

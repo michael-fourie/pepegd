@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { HiMenu } from "react-icons/hi";
-import logo from "../assets/png/wagmiLogo.png";
+import logo from "../assets/png/pepegdLogo.png";
 import {
   Flex,
   Link,
@@ -80,20 +80,23 @@ export default function Headers({ onConnect, account }) {
         {" "}
         {!account ? (
           <Flex
+          _hover={{
+            transform: 'translate(5px, -5px)',
+            transition: 'all 0.3s ease 0s',
+            boxShadow: "rgb(255 41 109) -4px 4px 0px 0.5px",
+            }}
             justifyContent="center"
             alignItems="center"
             color="white"
-            fontWeight="bold"
             as="button"
             w="200px"
-            bg="pinkBtn"
-            borderWidth="1px"
             h="50px"
-            borderColor="black"
-            borderRadius="5px"
+            backgroundColor="rgb(151, 240, 237)"
+            textShadow="0.9px 0 0 #000, 0 -0.9px 0 #000, 0 0.9px 0 #000, -0.9px 0 0 #000"
             mr="10px"
             className="desktop-only"
             letterSpacing="2px"
+            fontSize="18px"
             onClick={onConnect}>
             Connect Wallet
           </Flex>
@@ -165,13 +168,18 @@ export default function Headers({ onConnect, account }) {
             </Link>{" "}
             {!account ? (
               <Flex
+                _hover={{
+                  transform: 'translate(5px, -5px)',
+                  transition: 'all 0.3s ease 0s',
+                  boxShadow: "rgb(255 41 109) -4px 4px 0px 0.5px",
+                }}
                 justifyContent="center"
                 alignItems="center"
                 color="white"
                 fontWeight="bold"
                 as="button"
                 w="200px"
-                bg="pinkBtn"
+                backgroundColor="rgb(151, 240, 237)"
                 borderWidth="1px"
                 h="50px"
                 borderColor="white"

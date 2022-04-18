@@ -6,7 +6,8 @@ import {
     Flex,
     Heading,
     Text,
-    Input
+    Input,
+    transition
 } from '@chakra-ui/react';
 import cloud from '../assets/png/cloud.png';
 import { isMobile } from 'react-device-detect';
@@ -32,7 +33,7 @@ export default function Home({
     console.log(data)
 
     const marginTop = isMobile ? "20%" : "5%"
-    const btnText = isMobile ? "1xl" : "2xl";
+    const btnText = isMobile ? "1xl" : "1xl";
     const minH = isMobile ? "0" : "100hv";
     const shd = isMobile ? "1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000" : "2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000";
 
@@ -55,6 +56,7 @@ export default function Home({
         <Box id = "gradient_cat" className = "gradient_cat"> </Box> */}
         <Heading
             textShadow={shd}
+            letterSpacing="2px"
             textTransform = "uppercase"
             color = "white"
             fontSize = {
@@ -81,6 +83,7 @@ export default function Home({
             }
             textShadow="0.9px 0 0 #000, 0 -0.9px 0 #000, 0 0.9px 0 #000, -0.9px 0 0 #000"
             textAlign = "center"
+            letterSpacing="1.5px"
             color = "white"
             fontSize = {
                 {
@@ -108,21 +111,26 @@ export default function Home({
                 count
             }
             textAlign = "center"
-            borderRadius = "20px"
             minLength = "1"
             min = "1" />
         <Box 
+            className='jpegd-btn'
             as = "button"
-            bg = "yellowBtn"
-            borderRadius = "20px"
+            backgroundColor="rgb(0, 55, 130)"
             minW = "200px"
             px = "20px"
             h = "60px"
             fontSize = {btnText}
-            fontWeight = "bold"
+            letterSpacing="2px"
             mt = "20px"
             color = "white"
             textTransform = "uppercase"
+            _hover={{
+                boxShadow: "rgb(255 41 109) -4px 4px 0px 0.5px",
+                transform: 'translate(5px, -5px)',
+                transition: 'all 0.3s ease 0s'
+
+            }}
             disabled = {!account || loading || (!saleActive && !presaleActive)
             }
             onClick = {

@@ -2,7 +2,9 @@ import React from 'react';
 import { Flex, Box, Heading, Text } from '@chakra-ui/react';
 // import Nyan from '../assets/animation/nyan_cat.json';
 import { isMobile } from 'react-device-detect';
-import pepe from "../assets/png/pepe_matrix.png";
+import trade from "../assets/png/trade.png";
+import mint from "../assets/png/mint.png";
+import jpegd from "../assets/png/jpegd.png";
 import { Image } from "@chakra-ui/react";
 import "../components/WhyCard";
 import "../style/Why.css"
@@ -53,7 +55,7 @@ export default function Why() {
                         justifyContent={{ base: 'flex-start', md: 'center' }}
                     >
                         <Image
-                            src={pepe}
+                            src={mint}
                             w="420px"
 
                         />
@@ -103,7 +105,7 @@ export default function Why() {
                         justifyContent={{ base: 'flex-start', md: 'center' }}
                     >
                             <Image
-                                src={pepe}
+                                src={jpegd}
                                 w="420px"
 
                             />
@@ -187,7 +189,7 @@ export default function Why() {
                                 </Text>
                             </Flex>
                             <Image
-                                src={pepe}
+                                src={jpegd}
                                 w="420px"
 
                             />
@@ -210,7 +212,7 @@ export default function Why() {
                         justifyContent={{ base: 'flex-start', md: 'center' }}
                     >
                         <Image
-                            src={pepe}
+                            src={trade}
                             w="420px"
                         />
                         <Flex

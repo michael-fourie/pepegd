@@ -6,8 +6,8 @@ import {
     Grid
 } from '@chakra-ui/react';
 import skitzo from "../assets/png/skitzo.png"
-import degen from "../assets/jpg/degen.jpg"
-import sexy from "../assets/jpg/sexy.jpg"
+import degen from "../assets/png/degen.png"
+import sexy from "../assets/png/sexy.png"
 import richarson from "../assets/png/richardson.png"
 import unhatched from "../assets/gif/wagmi-unrevealed.gif"
 import TeamCard from '../components/TeamCard';
@@ -64,7 +64,7 @@ export default function Team() {
                         heading="Degen Sholze"
                         text="Core Boosted Degen Chad" />
                     <TeamCard
-                        image={degen}
+                        image={richarson}
                         heading="Richardson"
                         text="Grand Master of Art" />
                 </Flex>
@@ -103,7 +103,7 @@ export default function Team() {
                         heading="Degen Sholze"
                         text="Core Boosted Degen Chad" />
                     <TeamCard
-                        image={degen}
+                        image={richarson}
                         heading="Richardson"
                         text="Grand Master of Art" />
                     </Flex>
