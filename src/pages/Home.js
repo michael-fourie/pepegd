@@ -81,7 +81,6 @@ export default function Home({
                     md: 0
                 }
             }
-            textShadow="0.5px 0 0 #000, 0 -0.5px 0 #000, 0 0.5px 0 #000, -0.5px 0 0 #000"
             textAlign = "center"
             letterSpacing="1.5px"
             color = "white"
