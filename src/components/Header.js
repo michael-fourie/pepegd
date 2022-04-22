@@ -24,6 +24,7 @@ export default function Headers({ onConnect, account }) {
   };
   return (
     <Flex
+
       px={{
         base: "10px",
         md: "15px",
@@ -130,12 +131,12 @@ export default function Headers({ onConnect, account }) {
           md: "none",
         }}>
         <DrawerOverlay />
-        <DrawerContent>
-          <DrawerHeader borderBottomWidth="1px"> Menu</DrawerHeader>
+        <DrawerContent background="black">
+          <DrawerHeader color="white" borderBottomWidth="1px"> Menu</DrawerHeader>
           <DrawerBody>
             <Link
               mr="50px"
-              color="green"
+              color="white"
               fontSize="2xl"
               textTransform="uppercase"
               display="block"
@@ -146,7 +147,7 @@ export default function Headers({ onConnect, account }) {
             </Link>
             <Link
               mr="50px"
-              color="green"
+              color="white"
               fontSize="2xl"
               textTransform="uppercase"
               display="block"
@@ -157,7 +158,7 @@ export default function Headers({ onConnect, account }) {
             </Link>
             <Link
               mr="50px"
-              color="green"
+              color="white"
               fontSize="2xl"
               textTransform="uppercase"
               display="block"
