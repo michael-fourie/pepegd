@@ -11,6 +11,7 @@ import "../style/Why.css"
 
 export default function Why() {
     const mt = isMobile ? "-35%" : "-10%"
+    const w = isMobile ? "100%" : "70%"
     const pb = isMobile ? "25%" : "0%"
     const shd1 = isMobile ? "2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000" : "3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000";
     const shd2 = isMobile ? "3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000" : "4px 0 0 #000, 0 -4px 0 #000, 0 4px 0 #000, -4px 0 0 #000";
@@ -47,7 +48,7 @@ export default function Why() {
                         />
                             <Flex
                             mt="1%"
-                            width="70%"
+                            width={w}
                             position="relative"
                             flexDirection="column"
                             alignItems="center"
