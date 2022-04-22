@@ -23,7 +23,7 @@ function Socials() {
             }} key="1">
                 <img onClick = {() => openInNewTab('https://discord.gg/eEjpdKCfMb')}
                     alt="discord" src={discord} style={{ margin: 'auto', height: '45%' }} />
-                <img  onClick = {() => openInNewTab('https://medium.com/')}
+                <img  onClick = {() => openInNewTab('https://jpegd.io/')}
                     alt="medium" src={medium} style={{ margin: 'auto', height: '45%' }} />
                 <img onClick = {() => openInNewTab('https://twitter.com/wagmisaurs')}
                     alt="twitter" src={twitter} style={{ margin: 'auto', height: '45%' }} />
@@ -39,7 +39,7 @@ function Socials() {
         }} key="2">
             <img onClick = {() => openInNewTab('https://discord.gg/eEjpdKCfMb')}
                     alt="discord" src={discord} style={{ cursor: 'pointer', margin: 'auto', height: '45%' }} />
-                <img  onClick = {() => openInNewTab('https://medium.com/')}
+                <img  onClick = {() => openInNewTab('https://jpegd.io/')}
                     alt="medium" src={medium} style={{ cursor: 'pointer', margin: 'auto', height: '45%' }} />
                 <img onClick = {() => openInNewTab('https://twitter.com/wagmisaurs')}
                     alt="twitter" src={twitter} style={{ cursor: 'pointer', margin: 'auto', height: '45%' }} />

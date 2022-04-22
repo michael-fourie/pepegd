@@ -7,7 +7,7 @@ export default function Lore() {
 
     const or = isMobile ? "column" : "row";
     const mt = isMobile ? "20%" : "0%";
-    const w = isMobile ? "750px" : "450px";
+    const w = isMobile ? "750px" : "650px";
     return (
         <Flex
             mt = "4%"
@@ -18,14 +18,7 @@ export default function Lore() {
         >
             <Box
                 margin="auto"
-                maxW={{ base: "95%", md: '55%', lg: '35%' }}
-                px={{ base: '20px', lg: 0 }}
-            >
-                <FAQ />
-            </Box>
-            <Box
-                margin="auto"
-                maxW={{ base: '100%', md: '70%', lg: '75%' }}
+                maxW={{ base: '100%'}}
                 px={{ base: '20px', lg: 0 }}
             >
                 <Image

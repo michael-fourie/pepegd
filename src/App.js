@@ -33,6 +33,8 @@ import {
 import game_border from "./assets/jpg/game-border.jpg";
 import ChromeDinoGame from 'react-chrome-dino';
 import Pool from "./components/pool";
+import yield_bg from "./assets/png/bg_yield.gif"
+import yield_mb from "./assets/png/bg_yield_mb.gif"
 
 const extendedThemes = extendTheme({
   ...theme,
@@ -160,7 +162,7 @@ function App() {
   //       dispatch(fetchData(account));
   //     });
   // };
-
+  const bg4 = isMobile ? yield_mb : yield_bg;
   return (
     <div className="main">
       <ChakraProvider theme={extendedThemes}>
@@ -199,6 +201,7 @@ function App() {
           <Lore />
         </div>
         <div className="team">
+          <img src={bg4} style={{width: "100vw"}}/>
           <Team />
           <Socials />
         </div>
